@@ -38,3 +38,4 @@ run:
   - -c
   - |
     mvn -B -f git/pom.xml compile
+    mvn -B -f git/pom.xml package
