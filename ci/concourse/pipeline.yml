@@ -6,14 +6,22 @@ resources:
   source:
     uri: https://github.com/mah19949/maven-mah9
     branch: main
+#- name: image
+#  type: registry-image
+#  icon: docker
+#  source:
+#    repository: mah19949/newrepo
+#    username: mah19949
+#    password: Viper007!
+#    tag: latest
+
 - name: image
-  type: registry-image
-  icon: docker
+  type: artifactory-resource
   source:
-    repository: mah19949/newrepo
-    username: mah19949
-    password: Viper007!
-    tag: latest
+    uri: https://mah.jfrog.io/artifactory
+    username: anwarhussainm.19949@gmail.com
+    password: mah19949@123
+    build_name: my-project-build
 
 jobs:    
 - name: unit
