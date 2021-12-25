@@ -39,4 +39,4 @@ jobs:
   # Take the image built in the previous task, and push it to our Docker registry Resource
   - put: image
     params: 
-       image: image/JavaHelloWorld-1.0-SNAPSHOT.jar
+       image: image/JavaHelloWorld-1.0.jar

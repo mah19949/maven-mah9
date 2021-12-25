@@ -39,4 +39,4 @@ run:
   - |
     mvn -B -f git/pom.xml compile
     mvn -B -f git/pom.xml package
-    cp git/target/JavaHelloWorld-1.0-SNAPSHOT.jar image/JavaHelloWorld-1.0-SNAPSHOT.jar
+    cp git/target/JavaHelloWorld-1.0-SNAPSHOT.jar image/JavaHelloWorld-1.0.jar
